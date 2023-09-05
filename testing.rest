@@ -1,0 +1,23 @@
+
+
+GET http://localhost:6000/api/allUsers
+Content-Type: application/json
+
+
+//
+###
+POST http://localhost:6000/api/signup
+Content-Type: application/json
+
+{
+  "fullname": "New Post",
+  "email": "hello001@gmail.com",
+  "password": "pass123",
+  "confirmPassword": "pass123",
+  "role": "admin",
+  "nin": 1234567900191,
+  "address":"hsvdhddvd"
+
+}
+
+//////
